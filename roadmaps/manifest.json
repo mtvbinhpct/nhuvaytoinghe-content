@@ -48,6 +48,18 @@
       "arcs": 13,
       "levels": 78,
       "order": 4
+    },
+    {
+      "id": "dn",
+      "title": "Lộ Trình Trường Bộ",
+      "subtitle": "The Long Discourses Guide · Bhikkhu Sujato",
+      "file": "roadmap-dn.json",
+      "version": 1,
+      "bytes": 21757,
+      "sha256": "7266802d5a84b67e1e7e4b774b9f53d617bbdfdb00f6a90da63248c53a18e015",
+      "arcs": 8,
+      "levels": 27,
+      "order": 5
     }
   ]
 }
