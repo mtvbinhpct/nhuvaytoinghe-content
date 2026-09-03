@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "roadmaps": [
+    {
+      "id": "itbw",
+      "title": "Lộ Trình Nikāya",
+      "subtitle": "In the Buddha’s Words · Bhikkhu Bodhi",
+      "file": "roadmap-itbw.json",
+      "version": 2,
+      "bytes": 47116,
+      "sha256": "7ca9b871b21fa59596bb106849318b72a24a4ba9e72c5cbcdb9f360788b1d4f0",
+      "arcs": 10,
+      "levels": 59,
+      "order": 1
+    },
+    {
+      "id": "mn",
+      "title": "Lộ Trình Trung Bộ",
+      "subtitle": "A Systematic Study · Bhikkhu Bodhi",
+      "file": "roadmap-mn.json",
+      "version": 1,
+      "bytes": 30119,
+      "sha256": "bfb69906fcfa1c0acefa9672c2e3bb7158ca9eb4aadd8a2bcb496cc2094d1c40",
+      "arcs": 8,
+      "levels": 32,
+      "order": 2
+    },
+    {
+      "id": "sn",
+      "title": "Lộ Trình Tương Ưng Bộ",
+      "subtitle": "Noble Truths, Noble Path · Bhikkhu Bodhi",
+      "file": "roadmap-sn.json",
+      "version": 3,
+      "bytes": 20387,
+      "sha256": "836a4d6823160009844bb5ceff32ea931f4b6fdeb9eabdaa7362b451b2d11b9e",
+      "arcs": 6,
+      "levels": 8,
+      "order": 3
+    },
+    {
+      "id": "an",
+      "title": "Lộ Trình Tăng Chi Bộ",
+      "subtitle": "Thematic Guide · Bhikkhu Bodhi",
+      "file": "roadmap-an.json",
+      "version": 4,
+      "bytes": 81162,
+      "sha256": "34ab28538e95a33f57577368d263d5e65a2aeadadf2b72fa1f6c1031fa29771d",
+      "arcs": 13,
+      "levels": 78,
+      "order": 4
+    }
+  ]
+}
