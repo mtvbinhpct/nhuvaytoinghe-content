@@ -90,6 +90,21 @@
       "arcs": 10,
       "levels": 61,
       "order": 6
+    },
+    {
+      "id": "sati",
+      "title": "Chánh Niệm Trong Kinh Điển Nikāya",
+      "subtitle": "Satipaṭṭhāna & Ānāpānasati · Nyanaponika · Ñāṇamoli · Kuan",
+      "file": "roadmap-sati.json",
+      "version": 2,
+      "seal": "CN",
+      "sourceLabel": "Satipaṭṭhāna",
+      "toneIndex": 4,
+      "bytes": 36512,
+      "sha256": "e0231a86f0fb8c7c284a794c2246e6f7b9872aeb926a564b20671e4227cf2a20",
+      "arcs": 9,
+      "levels": 36,
+      "order": 7
     }
   ]
 }
