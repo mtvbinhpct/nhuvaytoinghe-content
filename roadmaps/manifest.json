@@ -105,6 +105,21 @@
       "arcs": 9,
       "levels": 36,
       "order": 7
+    },
+    {
+      "id": "life",
+      "title": "Cuộc Đời Đức Phật Trong Kinh Điển Nikāya",
+      "subtitle": "The Life of the Buddha · Ñāṇamoli · Anālayo",
+      "file": "roadmap-life.json",
+      "version": 1,
+      "seal": "ĐP",
+      "sourceLabel": "Life of the Buddha",
+      "toneIndex": 6,
+      "bytes": 48738,
+      "sha256": "4f006e6ce15bccf685ebc1b63f675f34293dcda233aad0bfa35a14d8f00b48ad",
+      "arcs": 10,
+      "levels": 45,
+      "order": 8
     }
   ]
 }
