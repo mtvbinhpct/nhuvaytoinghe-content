@@ -107,6 +107,21 @@
       "order": 7
     },
     {
+      "id": "wings",
+      "title": "Đôi Cánh Giác Ngộ",
+      "subtitle": "37 Pháp Trợ Bồ-Đề · The Wings to Awakening · Ṭhānissaro Bhikkhu",
+      "file": "roadmap-wings.json",
+      "version": 1,
+      "seal": "ĐC",
+      "sourceLabel": "Wings to Awakening",
+      "toneIndex": 9,
+      "bytes": 53415,
+      "sha256": "c6760932597967b481555b9948b28a16413bf4822b168f532d7a099bb43a963a",
+      "arcs": 10,
+      "levels": 62,
+      "order": 8
+    },
+    {
       "id": "life",
       "title": "Cuộc Đời Đức Phật Trong Kinh Điển Nikāya",
       "subtitle": "The Life of the Buddha · Ñāṇamoli · Anālayo",
@@ -119,7 +134,7 @@
       "sha256": "4f006e6ce15bccf685ebc1b63f675f34293dcda233aad0bfa35a14d8f00b48ad",
       "arcs": 10,
       "levels": 45,
-      "order": 8
+      "order": 9
     }
   ]
 }
