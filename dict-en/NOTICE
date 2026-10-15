@@ -1,0 +1,35 @@
+Từ điển Anh–Việt của Như Vầy Tôi Nghe — gói otk-dict-en và dữ liệu web /dict-en/
+================================================================================
+
+Nguồn
+-----
+Phần "Nghĩa thông dụng" lấy từ từ điển Anh–Việt của Dự án Từ điển tiếng Việt
+miễn phí (Free Vietnamese Dictionary Project — FVDP, Hồ Ngọc Đức), bản StarDict
+"AnhViet" do OVDP phân phối:
+  https://downloads.sourceforge.net/project/ovdp/Stardict/English/AnhViet.zip
+  (sha256 tệp zip đã dùng: 6ff1508004311e916993b4eb84580cee910c89d682028d387763f7f85fc9c442)
+Nguồn được phát hành theo GNU General Public License phiên bản 2 (tệp COPYING).
+
+Sửa đổi của Như Vầy Tôi Nghe
+----------------------------
+- Chỉ giữ những dạng từ xuất hiện trong các bản dịch tiếng Anh của kho kinh
+  (segment.en của Kinh tạng + Luật tạng, và các bản dịch tiếng Anh trọn bài);
+  tính sẵn dạng từ → từ gốc (bất quy tắc, đuôi từ, rút gọn, từ nối gạch).
+- Bỏ ví dụ, thành ngữ và phần chuyên ngành.
+- Vá lỗi mã hoá chữ (mất dấu ả/ã/ơ) — data/en-vi/patches.tsv.
+- Thêm lớp thuật ngữ Phật học "Trong kinh" — data/en-vi/thuat-ngu.tsv.
+
+Dữ liệu đã sửa đổi (mảnh JSON web/public/dict-en/<phiên bản>/ và gói
+otk-dict-en-v<N>.db.gz) được phát hành theo GNU GPL phiên bản 2.
+
+Mã nguồn dựng dữ liệu
+---------------------
+Thư mục này chứa đầy đủ mã và bảng dùng để dựng dữ liệu:
+  scripts/dict-en/*.mjs        đọc StarDict, đưa về từ gốc, dựng mảnh và gói
+  web/lib/dict/en-key.mjs      khoá tra và chia mảnh (dùng chung web/build)
+  web/lib/dict/key.mjs         hàm băm FNV-1a dùng chung
+  data/en-vi/                  README (cách tải lại nguồn), bảng vá, bảng thuật ngữ
+
+Dựng lại (Node 22.13+; cần hai CSDL nội dung của dự án để lấy tập dạng từ):
+  node scripts/dict-en/build-dict-en.mjs
+  node scripts/dict-en/build-dict-en-pack.mjs --version N --url-base <URL>
