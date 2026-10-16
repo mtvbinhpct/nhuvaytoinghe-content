@@ -33,3 +33,8 @@ Thư mục này chứa đầy đủ mã và bảng dùng để dựng dữ liệ
 Dựng lại (Node 22.13+; cần hai CSDL nội dung của dự án để lấy tập dạng từ):
   node scripts/dict-en/build-dict-en.mjs
   node scripts/dict-en/build-dict-en-pack.mjs --version N --url-base <URL>
+
+Cập nhật gói v2 (16/10/2026)
+---------------------------
+Kiểm duyệt lại 21 mục thuật ngữ: sửa 7 mục nghĩa/Pāli/ghi chú và làm rõ
+12 nhóm nghĩa chỉ áp dụng trong một cụm từ (14 mục). Nguồn dựng mảnh: v2.

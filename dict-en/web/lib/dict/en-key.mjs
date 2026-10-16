@@ -4,7 +4,7 @@
 // mobile/test/fixtures/dict_en_key_cases.json.
 import { fnv1a } from "./key.mjs";
 
-export const EN_DICT_VERSION = "v1";
+export const EN_DICT_VERSION = "v2";
 export const EN_SHARD_COUNT = 256;
 
 /** @param {string} word @returns {string} */
