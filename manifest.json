@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/dict-pack-v1/otk-dict-v1.db.gz",
+    "version": 1,
+    "bytes": 14137391,
+    "sha256": "a026dc113a889252deeba96c9ef218ac328bcde486dce60c38b942c70e515849"
+  },
+  "agama": {
+    "version": 5,
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/agama-pack-v5/otk-agama-v5.db.gz",
+    "bytes": 5517791,
+    "sha256": "bada7d6a7b2feab918a089e59d2f59b50a5444ecab32b432fa8518e523c678e4",
+    "min_app": "1.0.0"
+  },
+  "dict_en": {
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/dict-en-pack-v2/otk-dict-en-v2.db.gz",
+    "version": 2,
+    "bytes": 1143365,
+    "sha256": "077efcfe87f80355ab77aa2f6c40216e4c468d571944af2cdbced997cd8ccb1c"
+  },
+  "core": {
+    "version": 21,
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/content-pack-v21/otk-core-v21.db.gz",
+    "bytes": 63614975,
+    "sha256": "e97d613f7dcf51bb1afe755c94cf663b83a76efc8f0d99f89a7c4e41eb24ec8e",
+    "min_app": "1.0.0"
+  },
+  "commentary": {
+    "version": 22,
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/content-pack-v22/otk-commentary-v22.db.gz",
+    "bytes": 65467636,
+    "sha256": "64f361e76f1936ed0afb7828407420dfe9921b4dcb4bb592ba4f91df7281eec6",
+    "min_app": "1.0.0"
+  }
+}
