@@ -19,10 +19,10 @@
     "sha256": "077efcfe87f80355ab77aa2f6c40216e4c468d571944af2cdbced997cd8ccb1c"
   },
   "core": {
-    "version": 21,
-    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/content-pack-v21/otk-core-v21.db.gz",
-    "bytes": 63614975,
-    "sha256": "e97d613f7dcf51bb1afe755c94cf663b83a76efc8f0d99f89a7c4e41eb24ec8e",
+    "version": 23,
+    "url": "https://github.com/mtvbinhpct/nhuvaytoinghe-content/releases/download/content-pack-v23/otk-core-v23.db.gz",
+    "bytes": 63613250,
+    "sha256": "7c50cd11507b08d1d39e7db7aa6fa99cfbbea4ca2c2049ecc6e0c9833bf0fb46",
     "min_app": "1.0.0"
   },
   "commentary": {
